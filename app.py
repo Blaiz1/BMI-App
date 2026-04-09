@@ -24,3 +24,5 @@ if st.button("Calculate BMI"):
             st.info("Category: Obese")
     else:
         st.error("Please enter valid weight and height values.")
+
+bmi = weight / (height * height)
